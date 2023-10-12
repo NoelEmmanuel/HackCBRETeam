@@ -1,6 +1,16 @@
 import streamlit as st
 from login import login_page
 from insight import insight_page
+<<<<<<< Updated upstream:main.py
+=======
+import os
+import openai
+import csv
+import myGPT
+
+# Define the roles list
+roles = ["Technician", "Building Manager", "Account Director", "Chief Engineer", "Portfolio Manager", "Asset Manager", "Leasing Manager", "Facility Coordinator", "Maintenance Supervisor"]
+>>>>>>> Stashed changes:Jeremain.py
 
 # Create a Streamlit app title
 st.title("Multi-Page Streamlit App")
